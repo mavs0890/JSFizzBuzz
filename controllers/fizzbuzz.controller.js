@@ -5,7 +5,7 @@ function FizzBuzzController(){
             return "fizz";
         }
 
-        if(number == 5){
+        if(number % 5 == 0){
             return "buzz";
         }
 
